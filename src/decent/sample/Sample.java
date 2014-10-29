@@ -8,7 +8,8 @@ public class Sample {
 	}
 
 	private void go() {
-		System.out.println("Hello Java");
+		System.out.println("Hello I");
+		System.out.println("Hello We");
 		System.out.println("Hello World");
 		System.out.println("Hello Universe");
 	}
