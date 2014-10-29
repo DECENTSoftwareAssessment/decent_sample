@@ -8,15 +8,15 @@ public class Sample {
 	}
 
 	private void go() {
-		System.out.println("Hello I");
-		System.out.println("Hello We");
-		System.out.println("Hello World");
-		System.out.println("Hello Universe");
+		System.out.println("Hello I!");
+		System.out.println("Hello We!");
+		System.out.println("Hello World!");
+		System.out.println("Hello Universe!");
 		goFurther();
 	}
 
 	private void goFurther() {
-		System.out.println("... and further where no man has gone before");
+		System.out.println("... and further where no man has gone before!");
 		boolean shallGo = true;
 		if (shallGo) {
 			goEvenFurther();
@@ -24,7 +24,7 @@ public class Sample {
 	}
 
 	private void goEvenFurther() {
-		System.out.println("... and further into layers");
+		System.out.println("... and further into layers!");
 		for (int i=0; i<5; i++) {
 			for (int j=0; i<5; i++) {
 				for (int k=0; i<5; i++) {
