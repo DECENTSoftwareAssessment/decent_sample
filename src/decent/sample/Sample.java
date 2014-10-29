@@ -16,7 +16,22 @@ public class Sample {
 	}
 
 	private void goFurther() {
-		System.out.println("... and further where no man has gone before");		
+		System.out.println("... and further where no man has gone before");
+		boolean shallGo = true;
+		if (shallGo) {
+			goEvenFurther();
+		}
+	}
+
+	private void goEvenFurther() {
+		System.out.println("... and further into layers");
+		for (int i=0; i<5; i++) {
+			for (int j=0; i<5; i++) {
+				for (int k=0; i<5; i++) {
+					System.out.println("  " +i+" -> "+j+" -> "+k);
+				}
+			}
+		}
 	}
 
 }
