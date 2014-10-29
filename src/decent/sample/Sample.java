@@ -12,6 +12,11 @@ public class Sample {
 		System.out.println("Hello We");
 		System.out.println("Hello World");
 		System.out.println("Hello Universe");
+		goFurther();
+	}
+
+	private void goFurther() {
+		System.out.println("... and further where no man has gone before");		
 	}
 
 }
