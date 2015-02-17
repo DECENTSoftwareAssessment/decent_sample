@@ -2,12 +2,7 @@ package decent.sample;
 
 public class Sample {
 
-	public static void main(String[] args) {
-		Sample s = new Sample();
-		s.go();
-	}
-
-	private void go() {
+	public void go() {
 		System.out.println("Hello I!");
 		System.out.println("Hello We!");
 		System.out.println("Hello World!");
